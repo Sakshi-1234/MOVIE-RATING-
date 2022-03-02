@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+    <h1><center>MY FAVOURITE MOVIES</center></h1>
+    <br>
+    <table class="table">
+        <tr>
+            <td>
+                <p >Title: <input type="text" placeholder="Movie Title" id="title"></p>
+            </td>
+            <td>
+                <p >Rating: <input type="text" placeholder="Rate the movie from 1 to 10" id="rating"></p>
+            </td>
+            <td>
+                <button onclick="add()">Add movie</button>
+            </td>
+        </tr>
+    </table>
+    <br>
+    <table id="mytable" border="1" style="width:40%;border:1px solid black;">
+        <tr>
+            <td style="width: 55%;background-color: rgb(243, 231, 214);">Title</td>
+            <td style="background-color: rgb(243, 231, 214);">Rating</td>
+            <td style="background-color: rgb(243, 231, 214);">Delete</td>
+        </tr>
+        <tr>
+            <td>Gigi</td>
+            <td>4</td>
+            <td><button class="remove" style="width: 100px;" onclick="deleteRow(this)">DELETE</button></td>
+        </tr>
+        <tr>
+            <td>Matrix</td>
+            <td>6</td>
+            <td><button class="remove" style="width: 100px;" onclick="deleteRow(this)">DELETE</button></td>
+        </tr>
+        <tr>
+            <td>Thor</td>
+            <td>9</td>
+            <td><button class="remove" style="width: 100px;" onclick="deleteRow(this)">DELETE</button></td>
+        </tr>
+    </table>
+</body>
+<script src="index.js"></script>
+</html>

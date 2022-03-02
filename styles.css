@@ -1,0 +1,13 @@
+.table{
+    position: relative;
+    left: 400px;
+    border-spacing: 30px;
+}
+
+#mytable{
+    position: relative;
+    left: 400px;
+    width: 200xp;
+    text-align: center;
+    
+}
